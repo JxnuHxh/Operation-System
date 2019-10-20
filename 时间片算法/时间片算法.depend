@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1541584861 source:c:\users\huangxiaohua\desktop\cb\cb编程\时间片算法\main.c
+	<malloc.h>
+	<stdio.h>
+	<string.h>
+
