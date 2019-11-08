@@ -6,7 +6,9 @@
 纯C语言编写  <br>
 
 <img src="img/01.PNG"/>
-### 银行家算法自然语言描述：  
+
+### 银行家算法自然语言描述：     
+
 设 Requesti是进程 Pi的请求向量，如果 Requesti［j］=K，表示进程 Pi需要 K 个 Rj类型<br>
 的资源。当 Pi发出资源请求后，系统按下述步骤进行检查：<br>
 (1) 如果 Requesti［j］≤Need［i,j］，便转向步骤 2；否则认为出错，因为它所需要的资源数<br>
@@ -23,8 +25,7 @@ Need［i,j］=Need［i,j］-Requesti［j］;<br>
 
 <img src="img/02.PNG">
 
-<br>
-安全性算法自然语言描述：<br>
+### 安全性算法自然语言描述：<br>
 (1) 设置两个向量：① 工作向量 Work: 它表示系统可提供给进程继续运行所需的各类资源<br>
 数目，它含有 m 个元素，在执行安全算法开始时，Work∶=Available; ② Finish: 它表示<br>
 系统是否有足够的资源分配给进程，使之运行完成。开始时先做 Finish［i］∶=false; 当<br>
