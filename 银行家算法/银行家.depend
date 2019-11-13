@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1540114591 source:c:\cb\ÒøĞĞ¼Ò\main.cpp
+	<malloc.h>
+	<stdio.h>
+	<stdbool.h>
+	<string.h>
+
